@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+     <ul class="menu">
+        <a href="index.html"><h1 class="titulo">VIDEOGAMES.CORP</h1></a>
+        <li><a href="index.html">Inicio</a></li>
+        <li>
+            <a href="#">Informacion</a>
+            <ul class="submenu">
+                <li><a href="infov.html">Informacion sobre videojuegos</a></li>
+                <li><a href="formulario.html">Comentarios</a></li>
+            </ul>
+        </li>
+    <li><a href="categorias.html">Categorias</a></li>
+    </ul>
+    <main>
+        <h1 class="h11">Formulario de Contacto</h1>
+        <section>
+            <form action="https://formspree.io/f/xyzjjnle" method="POST">
+                <div style="margin-bottom: 1.5rem;">
+                    <label for="name"><strong class="h3">Nombre:</strong></label><br/>
+                    <input type="text" id="name" name="name" required style="width: 700px; padding: 0.75rem; border: 1px solid #cbd5e0; border-radius: 8px; margin-top: 0.5rem;">
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <label for="email"><strong class="h3">Email:</strong></label><br/>
+                    <input type="email" id="email" name="email" required style="width: 700px; padding: 0.75rem; border: 1px solid #cbd5e0; border-radius: 8px; margin-top: 0.5rem;">
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <label for="subject"><strong class="h3">Asunto:</strong></label><br/>
+                    <input type="text" id="subject" name="subject" required style="width: 700px; padding: 0.75rem; border: 1px solid #cbd5e0; border-radius: 8px; margin-top: 0.5rem;">
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <label for="message"><strong class="h3">Mensaje:</strong></label><br/>
+                    <textarea id="message" name="message" rows="6" required style="width: 700px; padding: 0.75rem; border: 1px solid #cbd5e0; border-radius: 8px; margin-top: 0.5rem;"></textarea>
+                </div>
+
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="pief">
+        derechos reservados a &copy; 2025 VIDEOGAMES.CORP
+        Este sitio proporciona información con fines educativos y no pretende infringir derechos de autor. Todos los nombres y marcas registradas pertenecen a sus respectivos propietarios.
+    </footer>
+</body>
+</html>
